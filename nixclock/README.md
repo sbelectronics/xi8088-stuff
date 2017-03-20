@@ -11,9 +11,9 @@ external header is at base+1Ch.
 For this demo, the Nixie Boards are connected to the 8255 using 
 the following pin assignments:
 
-  A0 - data
-  A1 - clock
-  A2 - latch
+* A0 - data
+* A1 - clock
+* A2 - latch
 
 The file dig100-logic.sch contains my reverse engineering of the
 DIG100's address decoding. I lost the damn manual, and had no 
